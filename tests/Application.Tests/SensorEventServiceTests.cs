@@ -1,4 +1,7 @@
 using Application.Interfaces;
+using Application.Services;
+using Domain.Entities;
+using Domain.Interfaces;
 using Microsoft.Extensions.Logging;
 using Moq;
 

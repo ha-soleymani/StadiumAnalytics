@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
+namespace Infrastructure.Persistence;
 public class AnalyticsDbContext : DbContext
 {
     public DbSet<SensorEvent> SensorEvents { get; set; }

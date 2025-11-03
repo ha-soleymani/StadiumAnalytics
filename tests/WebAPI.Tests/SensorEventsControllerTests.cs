@@ -2,6 +2,7 @@ using Application.Interfaces;
 using Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using WebAPI.Controllers;
 
 namespace WebAPI.Tests
 {

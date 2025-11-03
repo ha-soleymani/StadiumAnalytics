@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /src/WebAPI/analytics.db-shm
 /src/WebAPI/analytics.db-wal
+/src/WebAPI/analytics.db
+/src/WebAPI/analytics.db-shm
+/src/WebAPI/analytics.db-wal

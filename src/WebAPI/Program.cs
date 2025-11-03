@@ -1,6 +1,11 @@
 using Application.Interfaces;
+using Application.Services;
+using Background;
+using Domain.Interfaces;
+using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using WebAPI.HealthCheck;
 
 var builder = WebApplication.CreateBuilder(args);
 
