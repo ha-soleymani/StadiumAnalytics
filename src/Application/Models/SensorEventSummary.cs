@@ -8,8 +8,8 @@ namespace Application.Models
 {
     public class SensorEventSummary
     {
-        public string Gate { get; set; }
-        public string Type { get; set; }
+        public required string Gate { get; set; }
+        public required string Type { get; set; }
         public int TotalPeople { get; set; }
     }
 

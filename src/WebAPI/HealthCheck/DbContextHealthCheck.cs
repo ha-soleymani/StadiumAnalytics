@@ -1,5 +1,8 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
+using Infrastructure.Persistence;
+
+namespace WebAPI.HealthCheck;
 
 public class DbContextHealthCheck : IHealthCheck
 {

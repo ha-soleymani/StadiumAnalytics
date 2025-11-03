@@ -2,7 +2,9 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Application.Interfaces;
+using Domain.Entities;
 
+namespace Background;
 public class EventSimulator : BackgroundService
 {
     private readonly IServiceScopeFactory _scopeFactory;

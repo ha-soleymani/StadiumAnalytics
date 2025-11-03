@@ -1,3 +1,6 @@
+using Application.Interfaces;
+using Domain.Entities;
+using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.InMemory; // Add this using directive
 
@@ -24,7 +27,7 @@ namespace Infrastructure.Tests
             await repo.AddAsync(evt);
 
             var saved = await context.SensorEvents.FirstOrDefaultAsync();
-            Assert.Equal("Gate B", saved.Gate);
+            Assert.Equal("Gate B", saved?.Gate);
         }
     }
 }

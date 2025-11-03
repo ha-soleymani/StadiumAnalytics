@@ -1,4 +1,5 @@
 ﻿using Application.Models;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,6 @@ namespace Application.Interfaces
     {
         Task AddEventAsync(SensorEvent evt);
 
-        Task<List<SensorEventSummary>> GetSummaryAsync(string gate, string type, DateTime? start, DateTime? end);
+        Task<List<SensorEventSummary>> GetSummaryAsync(string? gate, string? type, DateTime? start, DateTime? end);
     }
 }

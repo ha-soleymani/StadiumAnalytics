@@ -1,4 +1,7 @@
-﻿public class SensorEvent
+﻿namespace Domain.Entities;
+
+// Represents a sensor event in the system
+public class SensorEvent
 {
     public int Id { get; set; }
     public string Gate { get; set; } = string.Empty;
