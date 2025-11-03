@@ -38,5 +38,5 @@ This solution follows the **Clean Architecture** pattern with the following proj
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/StadiumAnalytics.git
+git clone https://github.com/ha-soleymani/StadiumAnalytics.git
 cd StadiumAnalytics
